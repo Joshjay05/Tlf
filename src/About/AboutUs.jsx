@@ -10,22 +10,16 @@ export const AboutUs = () => {
       <article className="about-text">
         <h1 className="abtpage-title">About us</h1>
         <p>
-          TM ACADEMY is a provider of innovative, cutting-edge technological
-          training for Nigerians who are passionate about building a career in
-          Software Development. We make building a career in IT affordable. We
-          offer results-oriented and project based IT courses for personal
-          career growth and corporate training in Nigeria. We have excelled in
-          IT Consultancy,IT Solutions Development & Services. Our Training
-          Centre is located in Lagos. Our Students can be assured of 100%
-          satisfaction. We offer courses with world class curriculum, state of
-          the art training infrastructure, highly trained, experienced and
-          certified trainers. we bring real life scenarios into our training,
-          help you learn in a progressive manner and teach you problem-solving
-          reasoning with design thinking. More importantly, our students will
-          have the opportunity to join the community and Network of
-          knowledgeable mentors that will guide their learning and focus on
-          answering all technical questions, motivating and keeping them on
-          track as they proceed in their journey as a software developer.
+        Teen Literacy Foundation (TLF) educates teenagers and youths across vital areas of life. Our organization provides a platform for awareness and nurturing young minds with every tool needed to become global leaders and change-makers within and outside their immediate environment. We advocate literacy, which by our definition, is not limited to the ability to read and write. Still, it includes awareness and the ability to make the right choices, accurate information voluntarily, and guided positive actions on various issues. We aim to take education beyond the walls of the classroom. We do this through a holistic approach to providing education, guidance, academic aptitudes, skills, and an inclusive and sustainable environment for target audiences. 
+We run with four primary aims:
+1.	To take education beyond the classroom walls
+2.	To bring pupils and students to the discovery of purpose
+3.	To train pupils and students in critical thinking skill and problem-solving skills
+4.	To equip the target audience with the right tools and mindset to live a purposeful life
+Our target audiences are Primary school pupils, Secondary school students, Orphans and Orphanages, Drop-outs, and internally displaced infants and teenagers. 
+To meet up with the aims of the organization, we embrace the 17 SDGs towards our nation building challenges and roles. However, our primary emphasis is on SDG 3 (Healthy lives and wellness for all ages), SDG 4 (Inclusive and Equitable quality education and lifelong learning opportunities for all), and SDG 5 (Gender equality and empowerment of all women and girls).
+As an organization, our core values revolve around dedication, faithfulness, service, and skillfulness. We are people-oriented, project-centered, and a crop of achievers.
+
         </p>
       </article>
       <article className="abt-page">

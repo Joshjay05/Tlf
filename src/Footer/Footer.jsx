@@ -1,10 +1,9 @@
 import React from "react";
-import logo from "../img/courses/logo.png";
+import logo from "../img/tlf.jpeg";
 import instagram from "../img/ig.png";
 import tiktok from "../img/tiktok.png";
 import twitter from "../img/tt.png";
 import "./footer.css";
-// import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   const date = new Date().getFullYear();

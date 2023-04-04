@@ -13,11 +13,7 @@ const About = () => {
         </h1>
 
         <p data-aos="fade-up" data-aos-duration="2000">
-          TM ACADEMY is a provider of innovative, cutting-edge technological
-          training for Nigerians who are passionate about building a career in
-          Software Development. we make building a career in IT affordable.We
-          offer results-oriented and project based IT courses for personal
-          growth and corporate training in Nigeria.
+        Teen Literacy Foundation (TLF) educates teenagers and youths across vital areas of life. Our organization provides a platform for awareness and nurturing young minds with every tool needed to become global leaders and change-makers within and outside their immediate environment. We advocate literacy, which by our definition, is not limited to the ability to read and write. Still, it includes awareness and the ability to make the right choices, accurate information voluntarily, and guided positive actions on various issues. We aim to take education beyond the walls of the classroom. We do this through a holistic approach to providing education, guidance, academic aptitudes, skills, and an inclusive and sustainable environment for target audiences. 
         </p>
 
         <Link to="/about-us" className="about-btn">

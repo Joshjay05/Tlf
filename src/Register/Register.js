@@ -8,24 +8,24 @@ function Register() {
       <section className="registration">
         <article className="contact">
           <div>
-            <h3>Register Now</h3>
+            <h3> Contact Us</h3>
             <p>
-              To get started please fill the registration form and you will be
-              contacted shortly.
+              To get started please fill the contact form and you will be
+              reached shortly.
             </p>
             <h5>Contact us via email</h5>
 
             <span>
-              academy@tm30.net
+              tlf@gmail.com
             </span>
 
          <div className="divider"></div>
             <h5>
-              or call <strong> Funke</strong>
+              or call <strong> Isaac Oni</strong>
             </h5>
 
             <span>
-              <h5>08062470985</h5>
+              <h5>+2348102265568</h5>
             </span>
           </div>
         </article>

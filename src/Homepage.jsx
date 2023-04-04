@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import student from "./img/student.png";
 import president from "./img/president.jpg";
+import Register from "./Register/Register"
 import "./home.css";
 import Footer from "./Footer/Footer";
 
@@ -78,7 +79,7 @@ const Homepage = () => {
           <img src={president} alt="" />
         </div>
       </section>
-
+<Register/>
       <Footer />
     </div>
   );

@@ -84,9 +84,10 @@
     font-weight: bold;
   }
 
-  .logos {
-    width: 100px;
-  }
+  .logos{
+    height: 68px;
+    border-radius: 50%;
+}
 }
 
 .right .tk{
