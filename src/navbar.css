@@ -1,0 +1,49 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-items{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+
+}
+.nav-item a:hover{
+    background: seashell;
+}
+.services-submenu{
+    width: 10rem;
+    position: absolute;
+    list-style: none;
+    text-align: start;
+}
+
+.services-submenu li {
+    cursor: pointer;
+background: greenyellow;
+}
+submenu-item {
+    display: block;width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.services-submenu.clicked{
+    display:none;
+}
