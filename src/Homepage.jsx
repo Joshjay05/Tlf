@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
 import student from "./img/student.png";
 import president from "./img/president.jpg";
 import Register from "./Register/Register"
 import "./home.css";
 import Footer from "./Footer/Footer";
+import Events from "./Pages/Events"
 
 const Homepage = () => {
   return (
@@ -75,10 +76,12 @@ const Homepage = () => {
           </p>
         </div>
         <div className="p-image">
-          {" "}
           <img src={president} alt="" />
         </div>
       </section>
+<Events/>
+{/* Volunteer */}
+      
 <Register/>
       <Footer />
     </div>
