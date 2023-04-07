@@ -78,7 +78,8 @@ text-align: center;
 .vol-img_header .divider{
     align-items: center;
     border: 1.4px solid orange;
-    width: 7%;
+    width: 2%;
+   margin-block-end: 20px;
 }
 
 

@@ -6,6 +6,7 @@ import Register from "./Register/Register"
 import "./home.css";
 import Footer from "./Footer/Footer";
 import Events from "./Pages/Events"
+import Volunteer from "./Pages/Volunteer";
 
 const Homepage = () => {
   return (
@@ -81,6 +82,8 @@ const Homepage = () => {
       </section>
 <Events/>
 {/* Volunteer */}
+
+<Volunteer/>
       
 <Register/>
       <Footer />
