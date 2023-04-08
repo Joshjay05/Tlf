@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import styled from 'styled-components';
-const Button = () => {
+const Button = (props) => {
 const Button = styled.button`
      background-color:  #fa8c4c;
   color: ${({ color }) => color || "blue"};
@@ -21,7 +21,7 @@ const Button = styled.button`
 
   return (
 
-    <Button></Button>
+    <Button>{props}</Button>
   )
 }
 

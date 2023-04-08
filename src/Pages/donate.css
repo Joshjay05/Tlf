@@ -1,0 +1,36 @@
+.donation{
+    margin-top: 40px;
+    padding: 20px;
+    background: #333333;
+
+}
+ .qtn{
+    text-decoration: none;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ color: #fff;
+ }
+ .selection{
+     display: flex;
+     gap: 15px;
+    /* justify-content:center; */
+    align-items: flex-end;
+ }
+
+ .d-btn, select{
+    padding: 5px 10px;
+ }
+ /* .d-btn{
+    height: 20px;
+ } */
+
+ .article-one, .article-two, .article-three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+ }
+ .donation label{
+    color: #fff;
+ }

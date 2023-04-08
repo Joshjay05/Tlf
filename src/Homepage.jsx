@@ -7,6 +7,7 @@ import "./home.css";
 import Footer from "./Footer/Footer";
 import Events from "./Pages/Events"
 import Volunteer from "./Pages/Volunteer";
+import Donate from "./Pages/Donate";
 
 const Homepage = () => {
   return (
@@ -84,7 +85,7 @@ const Homepage = () => {
 {/* Volunteer */}
 
 <Volunteer/>
-      
+      <Donate/>
 <Register/>
       <Footer />
     </div>

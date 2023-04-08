@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import volhead from '../img/vol.jpg'
 import {FaBeer} from 'react-icons/fa'
+import vimage from '../img/volun.jpg'
+import "./volunteer.css"
 
 const Volunteer = () => {
   return (
@@ -16,40 +18,70 @@ const Volunteer = () => {
           </div>
         </article>
 
-        <section>  
+        <section className='v-desc_section'> 
+
+
+
+        {/*  */}
+          <section className='vln-container'>    
         <article className="vol-middle">
-          
-        <p> Become a Volunteer </p>
+          <div className="frst">
+        <h4> Become a Volunteer </h4>
         <div className="divider"></div>
-
-        <p>lorem30
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laboriosam non quaerat eligendi iste optio repellat doloribus sed a odit?
         </p>
+        </div>
 
-        <a  classname="vol-section"href="/">
-<span> <FaBeer/><div> <h6>Make Donation</h6>
-<p>keeping loremesmihihsghsjjjcjhjcxhushxuhu</p></div></span>
-<span><div> <span>Make Donation</span>
-<span>keeping loremesmihihsghsjjjcjhjcxhushxuhu</span></div></span>
-        </a>
-        
-        
-          </article>  
-          <article>
+        <article className="vol-section">
+          {/*  */}
+<section className='ctx'> 
+<FaBeer/><div className='txt'><span className="txt-1">Make Donation</span>
+<span className="txt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente facere qui hic omnis perspiciatis neque perferendis consectetur adipisci magni?</span></div>
+</section>
+{/*  */}
+<section className='ctx'> <FaBeer/><div className='txt'> <span className="txt-1">Make Donation</span>
+<span className="txt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente facere qui hic omnis perspiciatis neque perferendis consectetur adipisci magni?</span></div></section>
+{/*  */}
 
-          </article>
+{/*  */}
+</article>
+<article className="vol-section">
+          {/*  */}
+<section className='ctx'> 
+<FaBeer/><div className='txt'><span className="txt-1">Make Donation</span>
+<span className="txt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente facere qui hic omnis perspiciatis neque perferendis consectetur adipisci magni?</span></div>
+</section>
+{/*  */}
+<section className='ctx'> <FaBeer/><div className='txt'> <span className="txt-1">Make Donation</span>
+<span className="txt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente facere qui hic omnis perspiciatis neque perferendis consectetur adipisci magni?</span></div></section>
+{/*  */}
+
+{/*  */}
+</article>
+          </article > 
+          {/*  */}         
+          <div className='image-sec'>
+          <img src={vimage} alt=''/>
+          </div>
+          </section>
+
 <a href="/" className="vol-footer">
-  <div className="vf-desc">
+  <div className="vf-desc1">
   <span>Give Donation</span>
-  <span>loremjsjjhjdjhjdjhjdjhjd</span>
-  </div> <strong>.01</strong>
-  <div className="vf-desc">
+  <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat laudantium aperiam quia vel praesentium cum deleniti molestiae excepturi fugiat quam.</span>
+  <strong className='no-1'>.01</strong>
+  </div> 
+  <div className="vf-desc2">
   <span>Give Scholarship</span>
-  <span>loremjsjjhjdjhjdjhjdjhjd</span>
-  </div> <strong>.02</strong>
-  <div className="vf-desc">
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ducimus maxime expedita porro officia fugiat voluptates explicabo quo consequuntur quasi.</span>
+  <strong className='no-2'>.02</strong>
+  </div> 
+  <div className="vf-desc3">
   <span>Fund our programmes</span>
-  <span>loremjsjjhjdjhjdjhjdjhjd</span>
-  </div> <strong>.03</strong> </a>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint officia quos autem maxime soluta minima ipsum molestiae </span>
+  <strong className='no-1'>.03</strong>
+  </div>  </a>
       </section>
     </VolunteerContainer>
   )
@@ -119,6 +151,8 @@ const VolunteerContainer = styled.section`
       padding-inline:27%;
       font-size:14px;
     }
+
+
   }
 
 

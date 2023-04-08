@@ -1,0 +1,155 @@
+.v-desc_section {
+    margin-top: 50px;
+    width: 100%;
+
+}
+.vol-middle{
+    /* background: orange; */
+}
+
+.vln-container {
+    /* margin-top: 50px; */
+    display: flex;
+    padding-inline: 20px;
+    list-style: none;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 10px;
+}
+
+.frst h4, p{
+color: #000000;
+
+}
+
+
+.frst .divider{
+    border: 1.25px solid #D94a39 ;
+    margin-block-end: 8px;
+    width: 8%;
+    color: #000000;
+}
+.vol-middle {
+    width: 70%;
+display: flex;
+flex-direction: column
+}
+.vol-middle h4{
+
+}
+.vol-section{
+    padding-block-start: 30px;
+display: flex;
+/* grid-template-columns: repeat(2, 1fr); */
+gap:2px;
+}
+
+.ctx{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 20px;
+}
+
+.txt{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+gap: 10px;
+}
+
+  .txt-1{
+    color: #000000;
+font-weight: bold;
+font-size: 16px;
+}
+.txt-2{
+    line-height: 2em;
+font-size: 10px;
+color: #000000;
+}
+
+/* .image-sec{
+height: 100%;
+} */
+.image-sec img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.vol-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.vf-desc2{
+    position: relative;
+    padding: 25px;
+    font-size: 12px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    /* border-radius: 2px; */
+    background: #FFC75A;
+    box-shadow: 4px rgba(228, 227, 227, 0.1);
+}
+.vf-desc3 {
+    position: relative;
+    padding: 25px;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    /* border-radius: 2px; */
+    background:#D94A39;
+    box-shadow: 4px rgba(228, 227, 227, 0.1);
+}
+.vf-desc1{
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border-radius: 2px; */
+    background:#2E2E2E;
+    box-shadow: 4px rgba(228, 227, 227, 0.1);
+}
+
+.vol-footer span{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 8;
+}
+.vol-footer{
+    text-decoration: none;
+}
+
+.no-1{
+    font-size: 50px;
+    /* font-weight: 00; */
+    color: #c3c1c13c;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    z-index: 1;
+}
+.vf-desc2 .no-2{
+    font-size: 50px;
+    /* font-weight: 100; */
+    color: #f5f5f633;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    z-index: .5;
+    /* color: #FFD27C; */
+}
+.vf-desc2 span {
+    color: #333333;
+    z-index: 12;
+    font-weight: 400;
+}
