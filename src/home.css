@@ -19,30 +19,34 @@
    
 }
 .t-desc{
+    font-family: Mullish;
     text-align: left;
     display: flex;
     flex-direction:column;
     gap: 5px;
     justify-content: center;
     
-    width: 65%;
+    width: 75%;
     /* flex:4; */
 }
 .t-desc p{
     padding-inline: 20px;
     line-height:2em;
+font-size: 16px;
+font-weight: 500;
 }
 .image-desc{
    
-    
     padding-inline-end: 10px;
- 
+    
     width: 45%;
-  
+    
 }
 .image-desc img{
+    border-radius: 4px;
+
     width: 100%;
-    height: 580px;
+    height: 500px;
 }
 p.image{
     width: 40%;

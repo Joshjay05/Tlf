@@ -1,28 +1,32 @@
-import React from 'react';
-// import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import './App.css';
-// import Home from './components/Home';
-// import About from './components/About';
-// import Online from './components/Online';
-// import Offline from './components/Offline';
-// import Contact from './components/Contact';
-// import Navbarmenu from './components/menu/Navbarmenu';
-import Homepage from './Homepage'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+// import Volunteer from "./Pages/Volunteer";
+// import Home from "./Homepage";
+import About from "./About/About";
+
+import Donate from "./Pages/Donate";
+import Events from "./Pages/VolunteerPage";
+import Homepage from "./Homepage";
+import  AboutPage from "./About/AboutPage";
+import VolunteerPage from "./Pages/VolunteerPage";
 function App() {
   return (
     <div>
-      <Homepage/>
-      {/* <Router basename="/">
-   
-        <Navbarmenu />
-        <Switch> 
-          <Route exact path="/" component={Home}/>
-          <Route path="/About" component={About}/>
-          <Route path="/Online" component={Online}/>
-          <Route path="/Offline" component={Offline}/>
-          <Route path="/Contact" component={Contact}/>
-        </Switch>
-      </Router> */}
+      
+     
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/volunteer" element={<VolunteerPage />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/events" element={<Events />} />
+          {/* <Route path="/Contact" element={Contact}/> */}
+          <Route exact path="/about" element={<About />} />
+{/* <Route exact path="/"   */}
+        <Route exact path="/about-us" element={<AboutPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

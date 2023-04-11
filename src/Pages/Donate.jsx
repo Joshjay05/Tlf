@@ -45,12 +45,9 @@ const Donate = () => {
 
 <article className="article-three">
     <label>How much do you want to Donate</label>
-   <li><select>
-        <option> </option>
-    </select>
+ <input/>
     
-     </li>
-    
+ 
 </article>
 <button className='d-btn'>Donate Now</button>
 </section>

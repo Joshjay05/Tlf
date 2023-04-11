@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react'
 import "./about.css";
 import Footer from "../Footer/Footer";
-
- const AboutPage = () => {
+const AboutPage = () => {
   return (
-    <div className="about-page">
-      <section className="aboutUs-img"></section>
+    <div>
+    <section className="aboutUs-img"></section>
       <article className="about-text">
         <h1 className="abtpage-title">About us</h1>
         <p>
@@ -62,11 +61,9 @@ import Footer from "../Footer/Footer";
           motivating and keeping them on track.
         </p>
       </article>
-      
-      <Footer />
+<Footer/>
     </div>
-  );
-};
+  )
+}
 
-
-export default AboutPage;
+export default AboutPage

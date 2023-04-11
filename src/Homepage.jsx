@@ -5,14 +5,20 @@ import president from "./img/president.jpg";
 import Register from "./Register/Register"
 import "./home.css";
 import Footer from "./Footer/Footer";
-import Events from "./Pages/Events"
+// import Events from "./Pages/VolunteerPage"
 import Volunteer from "./Pages/Volunteer";
-import Donate from "./Pages/Donate";
+// import Donate from "./Pages/Donate";
+import About from "./About/About";
+import Event from "./Pages/Event";
+// import VolunteerPage from "./Pages/VolunteerPage";
+// import About from "./About/About";
 
 const Homepage = () => {
   return (
     <div>
       <Header />
+    
+  
       <section className="call">
         <div className="t-desc">
           <h1>What we do and how we do it</h1>
@@ -51,7 +57,11 @@ const Homepage = () => {
           <img src={student} alt="" />
         </div>
       </section>
-
+<Volunteer/>
+{/* About */}
+<About/>
+{/* About */}
+      <Event/>
       {/* president's corner */}
       <section className="call">
         <div className="t-desc">
@@ -81,11 +91,15 @@ const Homepage = () => {
           <img src={president} alt="" />
         </div>
       </section>
-<Events/>
-{/* Volunteer */}
 
-<Volunteer/>
-      <Donate/>
+
+
+
+
+
+
+
+  
 <Register/>
       <Footer />
     </div>
