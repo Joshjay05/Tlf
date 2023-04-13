@@ -15,7 +15,7 @@ function Register() {
             </p>
             <h5>Contact us via email</h5>
 
-            <span>
+            <span className="email">
             teensliteracyfoundation@gmail.com
             </span>
 

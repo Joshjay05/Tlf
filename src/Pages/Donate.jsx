@@ -45,7 +45,7 @@ const Donate = () => {
 
 <article className="article-three">
     <label>How much do you want to Donate</label>
- <input/>
+ <input className='donate-ipt'/>
     
  
 </article>

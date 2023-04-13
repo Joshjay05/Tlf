@@ -29,7 +29,7 @@ const About = () => {
           aptitudes, skills, and an inclusive and sustainable environment for
           target audiences.
         </p>
-        <button><Link to="/about-us"  className="about-btn">About Us</Link></button>
+        <Link to="/about-us" className="about-btn" >About Us</Link>
         
       </article>
       <article className="about-image">

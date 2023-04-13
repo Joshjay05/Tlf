@@ -30,10 +30,11 @@ const Volunteer = () => {
 
 const VolunteerContainer = styled.section`
   .v_head{
+    padding-block: 30px;
     background:url(${volhead});
     background-position: center center;
         background-repeat: no-repeat;
-        height: 90vh;
+        /* height: 90vh;s */
        margin-block-start:40px;
         background-size: cover;
        color:#fff;
@@ -51,7 +52,27 @@ const VolunteerContainer = styled.section`
       color:red;
       border:1px solid #D94A39
     }
+    /* @media screen and (min-width:40em){
+      .v_head{
+    background:url(${volhead});
+    background-position: center center;
+        background-repeat: no-repeat;
+        height: 90vh;
+       margin-block-start:40px;
+        background-size: cover;
+       color:#fff;
+        box-shadow:inset  0 0 0 2000px rgba(0,0,0,0.70);
+        text-align: center;
+        display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    justify-content:center;
+    line-height:3.5em;} 
+    } */
 
+
+   
     .btn-a{
       /* background-color: #D94A39;
       border:1px solid #D94A39; */
@@ -94,6 +115,34 @@ const VolunteerContainer = styled.section`
       color: #fff;
     }
 
+    @media screen and (max-width:40em) {
+      .v_title{
+        font-size:14px;
+        padding: 10px;
+      }
+      .v_description{
+        font-size: 12px;
+        line-height: 2em;
+      }
+      .v_head{
+        background:url(${volhead});
+    background-position: center center;
+        background-repeat: no-repeat;
+        /* height: 50vh; */
+       margin-block-start:40px;
+        background-size: cover;
+       color:#fff;
+        box-shadow:inset  0 0 0 2000px rgba(0,0,0,0.70);
+        text-align: center;
+        display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    justify-content:center;
+    line-height:3.5em;
+      
+      }
+    }
 
   }
 

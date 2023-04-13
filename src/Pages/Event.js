@@ -37,7 +37,7 @@ const Event = () => {
         <div className="event-description">
             <h4>Some Title Here</h4>
             <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa mollitia officia fugit vitae reprehenderit eius distinctio aperiam? Vitae, sapiente.</p>
-        <pre className="event-timing"> 10:am</pre></div>
+            <a href="/" className="event-timing"> 10:am</a></div>
 
     </article>
 
@@ -53,7 +53,7 @@ const Event = () => {
         <div className="event-description">
             <h4>Some Title Here</h4>
             <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing n nisi iusto error odit perferendis eaque, fugit vitae reprehenderit eius distinctio aperiam? Vitae, sapiente.</p>
-        <pre className="event-timing"> 10:am</pre></div>
+        <a href="/" className="event-timing"> 10:am</a></div>
 
     </article>
     {/*  */}

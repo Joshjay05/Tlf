@@ -1,3 +1,9 @@
+@media screen and (min-width:40em) {
+    
+
+
+
+
 .call{
     padding-block: 20px;
     background: #e9f8ff;
@@ -56,4 +62,47 @@ p.image{
    
  height: 380px;
     border-radius: 50%
+}
+}
+
+@media screen and (max-width:40em) {
+    .call{
+        margin-top: 50px;
+        background: #e9f8ff;
+        padding-block: 40px;
+    }
+    .t-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .t-desc h1{
+        font-size:18px;
+        text-align: center;
+        padding-block: 8px;
+        color: #61d0ff;
+    }
+    .t-desc p{
+        font-size: 12px;
+        line-height:2.5em;
+        padding: 5px 15px;
+        /* text-align: center; */
+    }
+    .image-desc img{
+        height: 300px;
+        width:100%;
+        padding: 20px 40px ;
+      
+    }
+    .p-image img{
+        display: flex;
+        align-items: center;
+        align-self: center;
+       /* min-height:10vh; */
+        padding: 20px 40px;
+        border-radius: 50%;
+        width:100%;
+    }
 }

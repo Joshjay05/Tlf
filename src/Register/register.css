@@ -4,14 +4,17 @@
     display: flex;
     flex-direction: column;
     padding-block: 70px;
-    padding-inline: 60px;
+    padding-inline: 40px;
   }
-
+.contact span{
+  font-size:12px;
+}
   .contact h3 {
     font-size: 22px;
     color: #61d0ff;
   }
   .contact {
+    text-align: left;
     line-height: 2em;
     padding-block-end: 20px;
   }
@@ -22,6 +25,16 @@
     margin-block-start: 20px;
     margin-block-end: 10px;
   }
+  .contact span {
+  color: #61d0ff;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.contact p {
+  padding-block-end: 20px;
+  /* padding-inline-end: 20px; */
+}
+
 }
 
 .contact h3 {
@@ -32,18 +45,20 @@
 .contact h5 {
   font-size: 18px;
 }
-.contact p {
-  padding-block-end: 50px;
-  padding-inline-end: 20px;
-}
 
-.contact span {
+
+/* .contact span {
   color: #61d0ff;
   font-weight: bolder;
   font-size: 20px;
-}
+} */
 
 @media screen and (min-width: 40em) {
+  .contact p {
+    padding-block-end: 50px;
+    padding-inline-end: 20px;
+  }
+  
   .divider {
     color: #999;
     border: 1px solid #999;

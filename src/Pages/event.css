@@ -1,6 +1,15 @@
 /* .event-container{
 
 } */
+
+
+@media screen and (min-width:40em) {
+    .event-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }  
+    
+}
 .event-head{
     margin-block: 40px;
     display: flex;
@@ -27,7 +36,9 @@
 }
 
 .event-timing{
-    width: 15%;
+    /* width: 5vw; */
+    border-width: 50%;
+    border: 1px solid #ced939;
     /* border-radius: 50%; */
    font-weight: bold;
    font-size: 16px;
@@ -38,10 +49,7 @@
     /* color: red; */
     text-align: center;
 }
-.event-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+
 
 .event-date{
     display:flex;
@@ -55,12 +63,13 @@
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
 }
 
+
+
 .event-description{
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
-   display:flex;
-    flex-direction:column;
-     /* justify-content:space-between; */
-     gap: 5px;
+  text-decoration: none;
+   
+      line-height: 2.5em;
      align-items:left;
      padding: 10px;
      background:white;
@@ -82,6 +91,9 @@ text-align: center;
    margin-block-end: 20px;
 }
 
+.event-timing{
+    text-decoration: none;
+}
 
 .vol-img_header p{
     color: #333333;
@@ -101,3 +113,24 @@ text-align: center;
     width: 100%;
 }
 
+
+@media screen and (max-width:40em) {
+    .event{
+       display: grid;
+       grid-template-columns: repeat(1fr);
+      
+ 
+    }
+
+ 
+    .event-description h4{
+        text-align: center;
+    }
+    .event-timing{
+        
+       font-weight: bold;
+       font-size: 16px;
+       background-color: #ced939;
+        color:black;
+    }
+}
