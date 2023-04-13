@@ -69,6 +69,7 @@ font-size: 10px;
   display: flex;
   flex-direction: column;
   background-color:#2b2a29;
+  padding-block-end: 20px;
 }
 .post{
   /* padding-inline: 10px; */
