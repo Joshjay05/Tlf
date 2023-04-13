@@ -12,6 +12,10 @@
     list-style: none;
     flex-direction: column;
   }
+
+  .tf-content input{
+    padding: 8px;
+  }
 .mail{
  width: 60%;
 }
