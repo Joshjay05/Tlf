@@ -168,6 +168,39 @@ const EventContainer = styled.section`
             padding-inline: 6px;
         }
 
+        @media screen and (max-width:40em){
+          .vol-text p{
+            color:white;
+            font-weight:100;
+            line-height: 1.6em;
+            padding-inline:2px;
+            font-size:12px;
+        }  
+        .vol-text input{
+            padding:6px;
+            width:60vw;
+            
+            background: transparent;
+            outline:none;
+            border: 1px solid #c8c3c3;
+            border-radius:4px #fff;
+            /* box-shadow:; */
+            /* font-size:5px; */
+
+        }
+
+        .vol-text{
+            
+            /* filter:blur(0.2): */
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+           gap:8px;
+           padding-block: 8%;
+           align-items:center;
+           padding-inline:8%;
+        }
+        }
     
     }
 `

@@ -12,6 +12,9 @@
     list-style: none;
     flex-direction: column;
   }
+  .footer a{
+    color: #fff;
+  }
 
   .tf-content input{
     padding: 8px;
@@ -28,8 +31,10 @@
     font-weight: bold;
     justify-content: center;
   }
-.middle .tc {
-font-size: 10px;
+.middle  {
+font-size: 13px;
+color: white;
+text-decoration: none;
 }
   .right a {
     display: flex;
@@ -267,6 +272,15 @@ color: #fff;
   border-radius: 4px;
   text-decoration: none;  
 }
+
+.middle a li {
+  color: white;
+  text-decoration: none;
+}
+.footer a{
+  color: #fff;
+}
+
 }
   .footer {
     /* margin-top: 50px; */
@@ -300,11 +314,5 @@ color: #fff;
   .logos{
     height: 60px;
     border-radius: 50%;
-}
-
-
-.middle a li {
-  color: white;
-  text-decoration: none;
 }
 
