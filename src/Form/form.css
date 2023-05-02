@@ -5,7 +5,7 @@
   .forms {
     margin-block: 20px;
   }
-  li {
+ .names li {
     list-style: none;
   }
 
@@ -54,7 +54,7 @@
     border: 0;
     border-bottom: 2px solid black;
   }
-  li {
+ .names li {
     font-size: 22px;
     list-style: none;
   }

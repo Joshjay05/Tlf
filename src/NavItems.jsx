@@ -1,4 +1,4 @@
-export const navItems = [
+const navItems = [
     {
         id: 1,
         Title:"Home",
@@ -36,3 +36,5 @@ export const navItems = [
         cName: "nav-item",
     },
 ]
+
+export default navItems

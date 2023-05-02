@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    padding-inline-end: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.navItems{
+    display: flex;
+    /* gap:15px; */
+    list-style: none;
+    text-decoration: none;
+    /* width:70vw; */
+    justify-content:flex-end;
+    margin-right: 2rem;
+   /* margin-right:8px ; */
+}
+.navItem{
+    display: flex;
+
+    align-items: center;
+}
+.navItems a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+}

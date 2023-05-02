@@ -17,8 +17,6 @@ const Homepage = () => {
   return (
     <div>
       <Header />
-    
-  
       <section className="call">
         <div className="t-desc">
           <h1>What we do and how we do it</h1>
@@ -90,16 +88,7 @@ const Homepage = () => {
         <div className="p-image">
           <img src={president} alt="" />
         </div>
-      </section>
-
-
-
-
-
-
-
-
-  
+      </section>  
 <Register/>
       <Footer />
     </div>

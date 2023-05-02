@@ -1,16 +1,17 @@
 
 import React, {useState} from 'react'
 import "./navbar.css"
+import { Link } from 'react-router-dom'
 const Dropdown = () => {
     const [dropdown, setDropDown] = useState(false)
   return (
     <div>
 
-        <ul className={dropdown? "services-submenu clicked" : "services-submenu"} onclick={() => {setDropDown(!dropdown)}}>
+        <ul className={dropdown? "services-submenu.clicked" : "services-submenu"} onclick={() => {setDropDown(!dropdown)}}>
 
-            {serviceDropwdon.map(()=> {
+            {serviceDropwdon.map((item)=> {
                 return (
-                    <li>
+                    <li key={item.id} className={item.cName}>
                         <Link to={item.path} className={item.cName} onClick={() =>setDropDown(false)}>{item.title}</Link>
                     </li>
                 )
