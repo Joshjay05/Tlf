@@ -15,7 +15,7 @@ const Volunteer = () => {
 
             <h5>Become a Volunteer</h5>
             <span className="v_title">Be part of Our Community</span>
-            <p className='v_description'>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, alias.</p>
+            {/* <p className='v_description'>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, alias.</p> */}
             <div> <Link class="btn-a" to="/volunteer"> 
             Know More
             </Link>  <Link class="btn-b" to="/donate">Donate Now</Link></div>

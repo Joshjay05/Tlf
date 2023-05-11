@@ -10,6 +10,7 @@ const navItems = [
         Title:"Initiatives & Programmes",
         path:"./initiatives",
         cName: "nav-item",
+        image:"usa",
     },
     {
         id: 3,

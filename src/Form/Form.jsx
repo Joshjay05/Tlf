@@ -14,7 +14,7 @@ import "./form.css";
 // });
 function Form() {
   const [firstName, setfirstName] = useState("");
-  const [lastName, setlastName] = useState("");
+  // const [lastName, setlastName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setphoneNumber] = useState("");
 
@@ -23,7 +23,7 @@ function Form() {
   const [isLoading, setisLoading] = useState(false);
   const details = {
     firstName,
-    lastName,
+    // lastName,
     email,
     phoneNumber,
     additionalInformation,
@@ -48,19 +48,22 @@ setisLoading(false);
           <div className="names">
             <li className="form-details">
               <label>
-                FirstName <sup>*</sup>{" "}
+                Name <sup>*</sup>{" "}
               </label>{" "}
               <input
                 required
-                placeholder="John"
+                placeholder="Johnxxxxxx"
                 type="text"
                 onChange={(e) => setfirstName(e.target.value)}
+
+                className="name-input"
+                
               />
             </li>
 
-            <li className="form-details">
+            {/* <li className="form-details">
               <label>
-                LastName<sup>*</sup>
+     .form-details           LastName<sup>*</sup>
               </label>
               <input
                 required
@@ -68,7 +71,7 @@ setisLoading(false);
                 type="text"
                 onChange={(e) => setlastName(e.target.value)}
               />
-            </li>
+            </li> */}
           </div>
 
           <div className="contact-details">

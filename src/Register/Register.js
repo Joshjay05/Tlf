@@ -6,7 +6,7 @@ function Register() {
   return (
     <>
       <section className="registration">
-        <article className="contact">
+        <article  id="register" className="contact">
           <div>
             <h3> Contact Us</h3>
             <p>

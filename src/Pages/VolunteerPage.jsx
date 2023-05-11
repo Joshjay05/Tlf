@@ -21,8 +21,8 @@ const VolunteerPage = () => {
 <article className="vol-head" >
     <div className='vol-text'> 
 
-    <span className='v-call'>Register As a Volunteer</span>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aliquid architecto cum sunt aut explicabo ullam esse repellendus at praesentium optio ducimus, distinctio officia, dolorem provident commodi, aperiam earum? Doloremque.</p>
+    <span className='v-call'>Become a Member</span>
+    {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aliquid architecto cum sunt aut explicabo ullam esse repellendus at praesentium optio ducimus, distinctio officia, dolorem provident commodi, aperiam earum? Doloremque.</p> */}
     <div>
     <input placeholder="Enter your Mail"/><button className='sn-button'>SignUp</button>
     </div>
@@ -166,6 +166,7 @@ const EventContainer = styled.section`
             outline:none;
         
             padding-inline: 6px;
+            margin-block: 20px;
         }
 
         @media screen and (max-width:40em){

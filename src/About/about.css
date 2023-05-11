@@ -27,7 +27,7 @@
     text-align: left;
   }
   .about-image {
-    position: relative;
+    /* position: relative; */
     padding: 20px;
   }
   .about-image img {
@@ -145,7 +145,7 @@ padding: 20px 0;
     width: 75%;
   }
   .about-image {
-    padding-block-start: 200px;
+    padding-block-start: 130px;
 
     /* height: 280px; */
   }

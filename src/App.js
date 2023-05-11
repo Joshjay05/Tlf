@@ -10,6 +10,8 @@ import Events from "./Pages/VolunteerPage";
 import Homepage from "./Homepage";
 import  AboutPage from "./About/AboutPage";
 import VolunteerPage from "./Pages/VolunteerPage";
+import InitiativesPrograms from "./Pages/InitiativesPrograms";
+import Courses from "./Pages/Courses";
 function App() {
   return (
     <div>
@@ -23,8 +25,10 @@ function App() {
           <Route path="/events" element={<Events />} />
           {/* <Route path="/Contact" element={Contact}/> */}
           <Route exact path="/about" element={<About />} />
-{/* <Route exact path="/"   */}
+<Route exact path="/initiatives" element={<InitiativesPrograms/>}/>
+
         <Route exact path="/about-us" element={<AboutPage />} />
+        <Route path="/courses" element={<Courses/>}/>
         </Routes>
       </Router>
     </div>

@@ -58,6 +58,9 @@
     font-size: 22px;
     list-style: none;
   }
+  .form-details .name-input{
+    width:50vw;
+  }
   .form-details .PhoneInput {
     width: 300px;
   }

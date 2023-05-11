@@ -23,15 +23,18 @@ header span{
 /* .nav:active{
     background:rgba(125, 124, 124, 0.6);
 } */
- .navbar.scrolled{
+ .nav.scrolled{
    display: flex;
     
-   background: #fff;
+   background: #bc4040ce;
    color: black;
+   /* display:flex; */
+    
+  ;
 }
 
-.nav{display:flex;
-    
+.nav{
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -52,4 +55,11 @@ header span{
     font-size: 28px;
     font-weight: bold;
     gap: 5px;
+}
+
+@media screen and (max-width:40em) {
+    .logo-title{
+       
+        font-size: 10px;
+    }
 }

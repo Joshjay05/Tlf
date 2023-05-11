@@ -1,5 +1,5 @@
 .navbar{
-    height: 10vh;
+    height: 18vh;
     display: flex;
     align-items: center;
 }
@@ -13,33 +13,42 @@
 }
 
 .nav-items{
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .nav-item a {
     text-decoration: none;
     color: white;
+    /* color: #28D1ff; */
+    /* color: #000000; */
+    font-size: 15px;
+    font-weight: 200;
+    /* padding-inline: 1px; */
 
 }
 .nav-item a:hover{
-    background: seashell;
+    /* background: seashell; */
+   /* color: #28D1ff; */
 }
 .services-submenu{
-    width: 8rem;
+    /* width: 8rem; */
     position: absolute;
     list-style: none;
     text-align: center;
-    bottom: -9%;
-    right: 17%;
-    font-size: 14px;
+    top: 48%;
+    right: 4%;
+    padding-top: 10px;
+    /* width: 8%; */
+   
 }
 
 .services-submenu li {
     cursor: pointer;
-background: greenyellow;
+/* background: rgb(255, 255, 255); */
+font-size: 8px;
 }
-.submenu-item {
+/* .submenu-item {
     display: flex;
     justify-content:space-between;
     gap: 8px;
@@ -49,7 +58,7 @@ background: greenyellow;
     color: white;
     padding: 16px;
     
-}
+} */
 
 .services-submenu.clicked{
     display:none;
