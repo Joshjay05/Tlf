@@ -46,7 +46,7 @@ const Nav = () => {
         <button className='responsive'> 
         
           {mobile?<GiHamburgerMenu  onClick={()=>{
-
+mobile?
 
 
           }}/>: <ImCross/>}  
